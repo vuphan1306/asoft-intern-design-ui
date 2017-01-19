@@ -56,12 +56,14 @@ body{
 }
 
 .header{
-	padding: 2%;
+	padding: 3%;
 }
+
 /*start logo*/
 .logo{
 	float: left;
 }
+
 /*start h_right*/
 .h_right{
 	float: left;
