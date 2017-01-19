@@ -55,13 +55,15 @@ body{
 	background-color: rgba(124,178,40,0.9);
 }
 
-.header{
-	padding: 2%;
+.header {
+	padding: 3%;
 }
+
 /*start logo*/
 .logo{
 	float: left;
 }
+
 /*start h_right*/
 .h_right{
 	float: left;
