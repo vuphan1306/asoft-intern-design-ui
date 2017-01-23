@@ -1,0 +1,101 @@
+.header_bg{
+	background: rgba(124,178,40,0.9);
+}
+
+.wrap{
+	margin: 0 auto;
+	width:80%;
+	-moz-transition:all .2s linear;
+	-webkit-transition:all .2s linear; 
+	-o-transition:all .2s linear; 
+	-ms-transition:all .2s linear;
+}
+
+.header{
+	padding: 2%;
+	width: 100%;
+	flex-direction: column;
+	line-height: 42px;
+	min-height: 42px;
+	z-index: 2000;
+}
+
+.logo{
+	float: left;
+}
+
+.menu{
+	float: right;
+	order: 1;
+	color: white;
+}
+
+.menu li{
+	display: inline-block;
+	margin: 6px 20px;
+}
+
+.menu li a{
+	display: block;
+	color: #f0f6ed;
+	line-height: 1.2em;
+	text-transform: capitalize;
+	font-size: 14px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding-bottom: 
+}
+
+.header_menu > ul li.active a span{
+	padding-bottom: 3px;
+	border-bottom: 2px solid white;
+}
+
+.header_menu > ul li a{
+	display: inline-block;
+	padding: 0 14px;
+	line-height: 42px;
+}
+
+.header_menu > ul li{
+	display: inline-block;
+	margin: 0;
+	font-size: 14px;
+}
+
+.header_menu > ul{
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+
+.header_menu li.active a{
+	color: #52ABDF;
+
+}
+
+.header_menu li a:hover{
+	color: #52ABDF;
+}
+
+.employers_menu{
+	order: 2;
+	float: right;
+}
+
+.users_menu{
+	order: 3;
+	float: right;
+	flex: 0 auto;
+	margin: 6px 20px;
+	line-height: 42px;
+	
+}
+
+/*.users_menu < span{
+
+}
+*/
+/* mau trang: #f0f6ed*/

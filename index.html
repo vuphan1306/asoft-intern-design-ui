@@ -3,20 +3,26 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Demo My Website</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+	<!-- <style type="text/css">
+		@import url("assets/stylesheets/main.css");
+	</style> -->
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/commons/_header.css">
+	<!-- @import url('~/commons/_header.css'); -->
 </head>
 <body>
+	<!-- start header page -->
 	<div class="header_bg">
 		<div class="wrap">
 			<div class="header">
 				<div class="logo">
-					<a href="index.html"><img src="images/logo_company.png" width="122px" height="26px" alt="Logo company"></a>
+					<a href="index.html"><img src="images/logo-white.png" width="122px" height="26px" alt="Logo company"></a>
 				</div>
 				<div class="header_menu">
 					<ul class="menu">
-						<li class="active"><a href="index.html">Internship</a></li>
-						<li><a href="company.html">Companies</a></li>
-						<li><a href="interview.html">Interviews</a></li>
+						<li class="active"><a href="index.html"><span>Internship</span></a></li>
+						<li><a href="company.html"><span>Companies</span></a></li>
+						<li><a href="interview.html"><span>Interviews</span></a></li>
 						<div class="clear"></div>
 					</ul>
 				</div>
@@ -27,14 +33,80 @@
 					</ul>
 				</div>
 				<div class="users_menu">
-					<a href="#">Sign In</a>
+					<span class="signin acctMenu">
+						Sign In
+					</span>
 				</div>
 			</div>
 		</div>
 	</div>
-	<footer id="pageBot">
-		
-	</footer>
+	<!-- end header page -->
 
+	<!-- start images slider -->
+	<div id="images-slider" class="siteSrchBar banner">
+		<div class="fwslider">
+			<div class="slider-container">
+				<div class="slide">
+					<p>images slide</p>
+					<div class="slide-content">
+						
+					</div>
+				</div>
+			</div>
+			<div class="slidePrev"><span> </span></div>
+		    <div class="slideNext"><span> </span></div>
+		</div>
+	</div>
+	<!-- end images slider -->
+
+	<!-- start page content -->
+	<div class="pageContentWrapper">
+		<div class="pageInsideContent">
+			<div id="mainhome">
+				<div class="flex-grid noPad">
+					<div class="col span-1-12 hideHH">
+						
+					</div>
+					<div class="col span-10-12">
+						
+					</div>
+					<div class="col span-1-12 hideHH">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	<!-- end page content -->
+
+
+	<!-- start footer page -->
+	<footer id="pageBot">
+		<div class="content old-footer">
+			<div class="hr hideDesk">
+				
+			</div>
+			<div class="flex-grid">
+				
+			</div>
+			<div class="hr">
+				
+			</div>
+			<!-- start nav footer -->
+			<nav>
+				<ul class="flex-grid tightVert minor">
+					<li class="span-1-6 col"></li>
+					<li class="span-1-3"></li>
+				</ul>
+			</nav>
+			<!-- end nav footer -->
+			<div class="hr">
+				
+			</div>
+		</div>
+	</footer>
+	<!-- end footer page -->
 </body>
 </html>
