@@ -1,0 +1,24 @@
+/*start-top-nav*/
+.top-nav{
+	display: none;
+	margin-top: 10px;
+}
+.nav_bg{
+	background: #464646;
+}
+.clearfix{
+	height: 40px;
+	width: 100%;
+	font-size: 13pt;
+	position: relative;
+	z-index: 9999;
+}
+.clearfix ul{
+	padding: 0;
+	margin: 0 auto;
+	display: none;
+	background: #f0f0f0;
+}
+.clearfix li{
+	display: block;
+}

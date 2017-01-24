@@ -1,5 +1,8 @@
-
+@import "commons/_reset.css";
+@import "commons/_header.css";
+@import "commons/_slider.css";
 /*Author: Vu Phan*/
+<<<<<<< HEAD
 /* reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:14px;font:inherit; font-family: "Helvetica neue", HelveticaNeue, Helvetica, Arial, sans-serif;vertical-align:baseline;position: relative;color: #404040;line-height: 1.2em;box-sizing: border-box;}
 article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
@@ -174,14 +177,7 @@ start menu
 
 
 
+=======
+>>>>>>> a7c5513a450bf5f58b14dd66860b3cc942b8b606
 
 
-	/*background-color: #eaeaea;
-	position: relative;
-	margin: 0;
-	color: #404040;
-	font-size: 14px;
-	line-height: 1.2em;
-	font-family: "Helvetica neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-	box-sizing: border-box;
-	padding: 0;
