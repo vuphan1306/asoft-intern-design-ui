@@ -1,17 +1,167 @@
-.header_bg{
+/*
+Author: Vu Phan
+*/
+
+.pageTop {
+	width: 100%;
+}
+
+.header_bg {
+	background-color: rgba(124,178,40,0.9);
+}
+
+.wrap {
+	max-width: 1024px;
+	
+	margin: 0 auto;
+	padding: 0 14px;
+	position: initial;
+	display: flex;
+	line-height: 42px;
+}
+
+.logo {
+	align-self: center;
+	line-height: 42px;
+	float: left;
+}
+
+.logo img{
+	outline: none;
+	background-position: 0px -105px;
+    width: 122px;
+    height: 26px;
+    vertical-align: middle;
+}
+
+
+
+.wrap_menu {
+	float: right;
+	display: inline-block;
+	justify-content: space-between;
+	padding: 0 28px;
+}
+
+.header_menu {
+	text-align: right;
+	order: 1;
+	font-size: 0;
+	padding: 0 38px;
+	float: left;
+}
+
+.header_menu > ul {
+	padding: 0;
+	list-style: none;
+	/*display: block;*/
+	overflow: hidden;
+	float: left;
+}
+
+.header_menu > ul li {
+	float: left;
+	display: inline-block;
+	margin: 0;
+	font-size: 14px;
+}
+
+.header_menu > ul li a {
+	display: inline-block;
+	padding: 0 14px;
+	line-height: 42px;
+}
+
+.header_menu > ul li a:hover {
+	background-color: rgba(110,150,35,0.9);
+}
+
+.header_menu > ul li.active a span {
+	padding-bottom: 3px;
+	border-bottom: 2px solid white;
+}
+
+.header_menu > ul li a span {
+	cursor: pointer;
+	color: #f0f6ed;
+}
+
+.employers_menu {
+	order: 2;
+	line-height: 42px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	float: center;
+	padding: 0 14px;
+}
+
+.employers_menu > span {
+	padding: 0;
+	display: inline-block;
+
+}
+
+.employersMargin {
+	margin-right: 7px;
+}
+
+.employers_menu .divider {
+	color: #ccc;
+    font-weight: lighter;
+}
+
+.postingsMargin {
+	margin-left: 7px;
+}
+
+.users_menu {
+	order: 3;
+	line-height: 42px;
+	float: right;
+	padding: 0 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------*/
+
+
+
+
+/*.header a, 
+.header a:hover {
+	text-decoration: none;
+}
+.header_bg {
 	background: rgba(124,178,40,0.9);
 }
 
-.wrap{
+.wrap {
 	margin: 0 auto;
 	width:80%;
-	-moz-transition:all .2s linear;
-	-webkit-transition:all .2s linear; 
-	-o-transition:all .2s linear; 
-	-ms-transition:all .2s linear;
 }
 
-.header{
+.header {
 	padding: 2%;
 	width: 100%;
 	flex-direction: column;
@@ -20,22 +170,22 @@
 	z-index: 2000;
 }
 
-.logo{
+.logo {
 	float: left;
 }
 
-.menu{
+.menu {
 	float: right;
 	order: 1;
 	color: white;
 }
 
-.menu li{
+.menu li {
 	display: inline-block;
 	margin: 6px 20px;
 }
 
-.menu li a{
+.menu li a span {
 	display: block;
 	color: #f0f6ed;
 	line-height: 1.2em;
@@ -48,44 +198,44 @@
 	padding-bottom: 
 }
 
-.header_menu > ul li.active a span{
+.header_menu > ul li.active a span {
 	padding-bottom: 3px;
 	border-bottom: 2px solid white;
 }
 
-.header_menu > ul li a{
+.header_menu > ul li a {
 	display: inline-block;
 	padding: 0 14px;
 	line-height: 42px;
 }
 
-.header_menu > ul li{
+.header_menu > ul li {
 	display: inline-block;
 	margin: 0;
 	font-size: 14px;
 }
 
-.header_menu > ul{
+.header_menu > ul {
 	padding: 0;
 	list-style: none;
 	display: block;
 }
 
-.header_menu li.active a{
+.header_menu li.active a {
 	color: #52ABDF;
 
 }
 
-.header_menu li a:hover{
+.header_menu li a:hover {
 	color: #52ABDF;
 }
 
-.employers_menu{
+.employers_menu {
 	order: 2;
 	float: right;
 }
 
-.users_menu{
+.users_menu {
 	order: 3;
 	float: right;
 	flex: 0 auto;
@@ -94,8 +244,4 @@
 	
 }
 
-/*.users_menu < span{
-
-}
 */
-/* mau trang: #f0f6ed*/
