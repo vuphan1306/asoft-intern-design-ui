@@ -1,6 +1,6 @@
 /*----------------------------- Slider Style ----------------------------------*/
 
-.siteSrchBar {
+.images-slider {
 	height: auto;
 	position: relative;
 	padding: 0;
@@ -8,7 +8,7 @@
 
 .fwslider {
 	position: relative;
-    width:100%;
+    width: 100%;
     height: 453px;
 }
 
@@ -28,19 +28,19 @@
 }
 
 .slide img {
-    width:100%;
+    width: 100%;
     height: 453px;
 }
 
-.slidePrev {
+.slide-prev {
     position: absolute;
-    top:40%;
-    left:-50px;
+    top: 40%;
+    left: -50px;
     
     z-index: 10;
 }
 
-.slidePrev span {
+.slide-prev span {
 	background-image: url("../../images/sitewide.png");
 	width: 33px;
     height: 61px;
@@ -51,14 +51,14 @@
     left: 60px;
 }
 
-.slideNext {
+.slide-next {
     position: absolute;
-    top:40%;
-    right:-50px;
+    top: 40%;
+    right: -50px;
     z-index: 10;
 }
 
-.slideNext span {
+.slide-next span {
  	background-image: url("../../images/sitewide.png");
 	width: 33px;
     height: 61px;
@@ -69,25 +69,25 @@
     right: 60px;
 }
 
-.slide-btns{
+/*.slide-btns{
 	margin-top: 0.5em;
-}
+}*/
 
 .slide_content {
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     position: absolute;
-    width:100%;
-    height:100%;
-    min-height:650px;
+    width: 100%;
+    height: 100%;
+    min-height: 650px;
 }
 
 .slide_content_wrap { /* Slider Text Content Container Style */
-    max-width:1280px;
+    max-width: 1280px;
     margin: 13.5% auto 0;
 }
 
-.searchBox {
+.slide__search-box {
 	display: table;
 	width: 100%;
 	height: 453px;
@@ -95,12 +95,12 @@
 	margin-bottom: -453px
 }
 
-.searchBoxCell {
+.slide__search-box-cell {
 	text-align: center;
 	vertical-align: middle;
 }
 
-.searchBoxContent {
+.slide__search-box-content {
 	width: auto;
 	border-radius: 2px;
 	display: inline-block;
@@ -111,7 +111,7 @@
 	box-shadow: rgba(0,0,0,0.15) 1px 1px 5px;
 }
 
-.searchBoxContent h1 {
+.slide__search-box-content h1 {
 	color: white;
 	margin: 0 0 28px 0;
 	font-size: 32px;
@@ -119,11 +119,11 @@
 	line-height: 1em;
 }
 
-.searchBoxContent form {
+.slide__search-box-content form {
 	padding: 0;
 }
 
-.siteSrchBar form {
+.images-slider form {
 	position: relative;
 	width: auto;
 	max-width: 1024px;
@@ -138,18 +138,18 @@
     float: none !important;
 }
 
-.searchBox > .searchBoxCell .searchBoxContent ul.opts li.sel {
+.slide__search-box > .slide__search-box-cell .slide__search-box-content ul.opts li.sel {
 	color: #597f1d;
 }
 
-.searchBoxContent ul.opts {
+.slide__search-box-content ul.opts {
 	display: block;
 	margin: 0 0 16px 0;
 	padding: 0;
 	list-style: none;
 }
 
-.searchBox > .searchBoxCell .searchBoxContent ul.opts li {
+.slide__search-box > .slide__search-box-cell .slide__search-box-content ul.opts li {
 	display: inline-block;
 	position: relative;
 	z-index: 102;

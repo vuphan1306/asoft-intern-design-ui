@@ -2,15 +2,15 @@
 Author: Vu Phan
 */
 
-.pageTop {
+.page-header {
 	width: 100%;
 }
 
-.header_bg {
+.header-bg {
 	background-color: rgba(124,178,40,0.9);
 }
 
-.wrap {
+.header-wrap {
 	max-width: 1024px;
 	
 	margin: 0 auto;
@@ -20,13 +20,13 @@ Author: Vu Phan
 	line-height: 42px;
 }
 
-.logo {
+.header-logo {
 	align-self: center;
 	line-height: 42px;
 	float: left;
 }
 
-.logo img{
+.header-logo img {
 	outline: none;
 	background-position: 0px -105px;
     width: 122px;
@@ -36,14 +36,14 @@ Author: Vu Phan
 
 
 
-.wrap_menu {
+.header-menu {
 	float: right;
 	display: inline-block;
 	justify-content: space-between;
 	padding: 0 28px;
 }
 
-.header_menu {
+.header__menu-nav {
 	text-align: right;
 	order: 1;
 	font-size: 0;
@@ -51,7 +51,7 @@ Author: Vu Phan
 	float: left;
 }
 
-.header_menu > ul {
+.header__menu-nav > ul {
 	padding: 0;
 	list-style: none;
 	/*display: block;*/
@@ -59,34 +59,34 @@ Author: Vu Phan
 	float: left;
 }
 
-.header_menu > ul li {
+.header__menu-nav > ul li {
 	float: left;
 	display: inline-block;
 	margin: 0;
 	font-size: 14px;
 }
 
-.header_menu > ul li a {
+.header__menu-nav > ul li a {
 	display: inline-block;
 	padding: 0 14px;
 	line-height: 42px;
 }
 
-.header_menu > ul li a:hover {
+.header__menu-nav > ul li a:hover {
 	background-color: rgba(110,150,35,0.9);
 }
 
-.header_menu > ul li.active a span {
+.header__menu-nav > ul li.active a span {
 	padding-bottom: 3px;
 	border-bottom: 2px solid white;
 }
 
-.header_menu > ul li a span {
+.header__menu-nav > ul li a span {
 	cursor: pointer;
 	color: #f0f6ed;
 }
 
-.employers_menu {
+.header__menu-employer {
 	order: 2;
 	line-height: 42px;
 	text-align: center;
@@ -96,26 +96,26 @@ Author: Vu Phan
 	padding: 0 14px;
 }
 
-.employers_menu > span {
+.header__menu-employer > span {
 	padding: 0;
 	display: inline-block;
 
 }
 
-.employersMargin {
+.header__item--margin-right {
 	margin-right: 7px;
 }
 
-.employers_menu .divider {
+.header__item--margin-left {
+	margin-left: 7px;
+}
+
+.header__menu-employer .header__divider {
 	color: #ccc;
     font-weight: lighter;
 }
 
-.postingsMargin {
-	margin-left: 7px;
-}
-
-.users_menu {
+.header__menu-user {
 	order: 3;
 	line-height: 42px;
 	float: right;
@@ -230,7 +230,7 @@ Author: Vu Phan
 	color: #52ABDF;
 }
 
-.employers_menu {
+.header__menu-employer {
 	order: 2;
 	float: right;
 }
