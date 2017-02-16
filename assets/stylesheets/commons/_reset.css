@@ -81,13 +81,11 @@ video {
 	padding: 0;
 	border: 0;
 	font-size: 14px;
-	font: inherit;
 	font-family: "Helvetica neue", HelveticaNeue, Helvetica, Arial, sans-serif;
  	vertical-align: baseline;
  	position: relative;
  	color: #404040;
  	line-height: 1.2em;
- 	box-sizing: border-box;
  }
 article,
 aside,
@@ -161,22 +159,22 @@ a {
 
 /* Position Relative */
 .pos-relative {
-	position:relative;
+	position: relative;
 }
 
 /* Position Absolute */
 .pos-absolute {
-	position:absolute;
+	position: absolute;
 }
 
 /* vertical align baseline */
 .vertical-base {	
-	vertical-align:baseline;
+	vertical-align: baseline;
 }
 
 /* vertical align top */
 .vertical-top {	
-	vertical-align:top;
+	vertical-align: top;
 }
 
 /* Add 5px bottom padding and a underline */
@@ -188,7 +186,7 @@ a {
 
 /* vertical menu */
 nav.vertical ul li {	
-	display:block;
+	display: block;
 }
 
 /* horizontal menu */
@@ -197,7 +195,7 @@ nav.horizontal ul li {
 }
 
 img {
-	max-width:100%;
+	max-width: 100%;
 }
 
 body{

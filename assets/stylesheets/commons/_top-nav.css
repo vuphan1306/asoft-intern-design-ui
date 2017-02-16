@@ -1,4 +1,4 @@
-/*start-top-nav*/
+/*------start-top-nav------*/
 .top-nav{
 	display: none;
 	margin-top: 10px;
@@ -6,19 +6,67 @@
 .nav_bg{
 	background: #464646;
 }
-.clearfix{
+.clearfix {
 	height: 40px;
 	width: 100%;
-	font-size: 13pt;
+	font-size: 11pt;
 	position: relative;
 	z-index: 9999;
 }
-.clearfix ul{
+.clearfix ul {
 	padding: 0;
 	margin: 0 auto;
 	display: none;
 	background: #f0f0f0;
 }
-.clearfix li{
+.clearfix li {
 	display: block;
+}
+.clearfix a {
+	color: #555555;
+	font-size:13px;
+	text-transform:uppercase;
+	display: block;
+	width:100%;
+	text-indent: 10px;
+	text-align: left;
+	text-decoration: none;
+	line-height: 40px;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+.clearfix li a {
+	border-bottom: 1px solid rgba(90, 85, 73, 0.17);
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.clearfix li:last-child a {
+	border-right: 0;
+}
+.clearfix a:hover,.clearfix a:active {
+	background: #202227;
+	color:#ffffff;
+}
+.clearfix a#pull {
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	position: relative;
+	color: #FFFFFF;
+	background-color: #202227;
+}
+.clearfix a#pull:after {
+	background:url('../images/nav-icon.png')no-repeat;
+	width: 30px;
+	content:"";
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 10px;
 }
