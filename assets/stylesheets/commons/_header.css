@@ -2,98 +2,90 @@
 Author: Vu Phan
 */
 
-.page-header {
-	width: 100%;
+body {
+	font-family: 'Open Sans', sans-serif;
+	background:#ffffff;
+	font-size: 100%;
 }
-
-.header-bg {
-	background-color: rgba(124,178,40,0.9);
+.wrap {
+	margin:0 auto;
+	width:80%;
+	-moz-transition:all .2s linear;
+	-webkit-transition:all .2s linear; 
+	-o-transition:all .2s linear; 
+	-ms-transition:all .2s linear;
 }
-
-.header-wrap {
-	max-width: 1024px;
-	
-	margin: 0 auto;
-	padding: 0 14px;
-	position: initial;
-	display: flex;
-	line-height: 42px;
+.header-bg{
+	background: rgba(124,178,40,0.9);
 }
-
-.header-logo {
+.header{
+	justify-content: space-between;
+	padding: 0 28px;
+}
+/* start logo */
+.logo{
 	align-self: center;
 	line-height: 42px;
 	float: left;
 }
 
-.header-logo img {
+.logo img {
 	outline: none;
 	background-position: 0px -105px;
-    width: 122px;
-    height: 26px;
-    vertical-align: middle;
+  width: 122px;
+  height: 26px;
+  vertical-align: middle;
 }
-
-
-
-.header-menu {
-	float: right;
-	display: inline-block;
-	justify-content: space-between;
-	padding: 0 28px;
-}
-
-.header__menu-nav {
+/* start h_left */
+.header__menu {
+	width: 45.3333%;
 	text-align: right;
-	order: 1;
 	font-size: 0;
+	order: 1;
 	padding: 0 38px;
 	float: left;
 }
-
-.header__menu-nav > ul {
+/* start menu */
+.header-menu-ul{
 	padding: 0;
 	list-style: none;
 	/*display: block;*/
 	overflow: hidden;
 	float: left;
 }
-
-.header__menu-nav > ul li {
+.header-menu-ul  li{
 	float: left;
 	display: inline-block;
 	margin: 0;
 	font-size: 14px;
 }
-
-.header__menu-nav > ul li a {
+.header-menu-ul  li a{
+	text-transform: capitalize;
+	font-size: 14px;	
 	display: inline-block;
 	padding: 0 14px;
 	line-height: 42px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
-
-.header__menu-nav > ul li a:hover {
-	background-color: rgba(110,150,35,0.9);
-}
-
-.header__menu-nav > ul li.active a span {
+.header-menu-ul  li.active a span {
 	padding-bottom: 3px;
 	border-bottom: 2px solid white;
 }
-
-.header__menu-nav > ul li a span {
-	cursor: pointer;
-	color: #f0f6ed;
+.header-menu-ul  li a:hover{
+	background-color: rgba(110,150,35,0.9);
 }
-
 .header__menu-employer {
 	order: 2;
 	line-height: 42px;
 	text-align: center;
 	color: #fff;
 	display: inline-block;
-	float: center;
+	float: left;
 	padding: 0 14px;
+	font: sans-serif;
 }
 
 .header__menu-employer > span {
@@ -112,13 +104,13 @@ Author: Vu Phan
 
 .header__menu-employer .header__divider {
 	color: #ccc;
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .header__menu-user {
 	order: 3;
 	line-height: 42px;
-	float: right;
+	float: left;
 	padding: 0 34px;
 }
 
@@ -139,109 +131,3 @@ Author: Vu Phan
 
 
 
-
-
-
-
-/*------------------------------------------------*/
-
-
-
-
-/*.header a, 
-.header a:hover {
-	text-decoration: none;
-}
-.header_bg {
-	background: rgba(124,178,40,0.9);
-}
-
-.wrap {
-	margin: 0 auto;
-	width:80%;
-}
-
-.header {
-	padding: 2%;
-	width: 100%;
-	flex-direction: column;
-	line-height: 42px;
-	min-height: 42px;
-	z-index: 2000;
-}
-
-.logo {
-	float: left;
-}
-
-.menu {
-	float: right;
-	order: 1;
-	color: white;
-}
-
-.menu li {
-	display: inline-block;
-	margin: 6px 20px;
-}
-
-.menu li a span {
-	display: block;
-	color: #f0f6ed;
-	line-height: 1.2em;
-	text-transform: capitalize;
-	font-size: 14px;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	padding-bottom: 
-}
-
-.header_menu > ul li.active a span {
-	padding-bottom: 3px;
-	border-bottom: 2px solid white;
-}
-
-.header_menu > ul li a {
-	display: inline-block;
-	padding: 0 14px;
-	line-height: 42px;
-}
-
-.header_menu > ul li {
-	display: inline-block;
-	margin: 0;
-	font-size: 14px;
-}
-
-.header_menu > ul {
-	padding: 0;
-	list-style: none;
-	display: block;
-}
-
-.header_menu li.active a {
-	color: #52ABDF;
-
-}
-
-.header_menu li a:hover {
-	color: #52ABDF;
-}
-
-.header__menu-employer {
-	order: 2;
-	float: right;
-}
-
-.users_menu {
-	order: 3;
-	float: right;
-	flex: 0 auto;
-	margin: 6px 20px;
-	line-height: 42px;
-	
-}
-
-*/
