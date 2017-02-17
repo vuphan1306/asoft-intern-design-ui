@@ -4,32 +4,32 @@ Author: Vu Phan
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background:#ffffff;
+	background: #ffffff;
 	font-size: 100%;
 }
 .wrap {
-	margin:0 auto;
-	width:80%;
-	-moz-transition:all .2s linear;
-	-webkit-transition:all .2s linear; 
-	-o-transition:all .2s linear; 
-	-ms-transition:all .2s linear;
+	margin: 0 auto;
+	width: 80%;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear; 
+	-o-transition: all .2s linear; 
+	-ms-transition: all .2s linear;
 }
-.header-bg{
+.header-bg {
 	background: rgba(124,178,40,0.9);
 }
-.header{
+.header {
 	justify-content: space-between;
 	padding: 0 28px;
 }
 /* start logo */
-.logo{
+.header-logo {
 	align-self: center;
 	line-height: 42px;
 	float: left;
 }
 
-.logo img {
+.header-logo img {
 	outline: none;
 	background-position: 0px -105px;
   width: 122px;
@@ -46,20 +46,20 @@ body {
 	float: left;
 }
 /* start menu */
-.header-menu-ul{
+.header-menu-ul {
 	padding: 0;
 	list-style: none;
 	/*display: block;*/
 	overflow: hidden;
 	float: left;
 }
-.header-menu-ul  li{
+.header-menu-ul li {
 	float: left;
 	display: inline-block;
 	margin: 0;
 	font-size: 14px;
 }
-.header-menu-ul  li a{
+.header-menu-ul  li a {
 	text-transform: capitalize;
 	font-size: 14px;	
 	display: inline-block;
@@ -70,11 +70,11 @@ body {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.header-menu-ul  li.active a span {
+.header-menu-ul li.active a span {
 	padding-bottom: 3px;
 	border-bottom: 2px solid white;
 }
-.header-menu-ul  li a:hover{
+.header-menu-ul li a:hover{
 	background-color: rgba(110,150,35,0.9);
 }
 .header__menu-employer {
