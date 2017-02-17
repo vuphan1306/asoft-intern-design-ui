@@ -1,0 +1,147 @@
+/* start box into slider */
+.box-search {
+	position: absolute;
+/*	margin-left: 33%;*/
+	margin-top: -250px;
+	z-index: 999;
+	width: 100%;
+}
+
+.box-search--full {
+	margin: 0 auto;
+	display: table;
+	width: 65%;
+	box-shadow: 0px 0px 4px rgb(97, 97, 97);
+	-webkit-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+	-moz-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+	-o-box-shadow: 0px 0px 4px rgb(97, 97, 97);
+}
+
+.booking_room {
+	padding: 2%;
+	float: left;
+	width: 22.33333%;
+	background: #E4E4E4;
+}
+
+.booking_room h4 {
+	font-size: 1.5em;
+	color: #202020;
+	text-transform: capitalize;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.booking_room p {
+	font-size: 0.8725em;
+	color: #6b6b6b;
+	line-height: 1.8em;
+}
+
+.box-search__field {
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	width: 100%;
+	background: #FFFFFF;
+}
+
+.box-search__field ul li {
+	float: left;
+}
+
+.box-search__field ul li .left {
+	margin-left: 15px;
+}
+
+.box-search__field ul li.box-search__key--width {
+	width: 50.33333%;
+}
+
+.box-search__field ul li.box-search__location--width {
+	width: 31.33333%;
+}
+
+.box-search__field ul li.box-search__btn--width {
+	width: 18.33333%;
+	/*margin-right: 0px;*/
+}
+
+.box-search__field h5 {
+	font-size: 1em;
+	color: #5F5F5F;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+
+select {
+	width: 100%;
+	color: #858585;
+	font-size: 0.8725em;
+	padding: 7px;
+	outline: none;
+	margin: 5px 0;
+	font-family: 'Open Sans', sans-serif;
+	background: #ffffff;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-o-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+}
+
+select option {
+	border: 1px solid #DFDFDF;
+	outline: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.book_date input[type="text"] {
+	width: 100%;
+	color: #858585;
+	font-size: 16px;
+	line-height: 24px;
+	height: inherit;
+	padding: 8px;
+	outline: none;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-webkit-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-moz-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-o-box-shadow: inset 0 0 2px rgb(236, 236, 236);
+	-webkit-appearance: none;
+}
+
+.icon__search {
+	background:url(..../images/icon-search-white.sgv) no-repeat 100% 50% #FFF;
+}
+
+.btn__search {
+	margin: 0;
+}
+
+.btn__search form input[type="submit"] {
+	text-transform: capitalize;
+	width: 100% !important;
+	background: #32A2E3;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	padding: 8px;
+	border: none;
+	font-size: 16px;
+	line-height: 26px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn__search form input[type="submit"]:hover {
+	background: #228AC6;
+}

@@ -5,7 +5,7 @@
 	<title>Home page</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css" media="all"> -->
+	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css" media="all">
 	<link rel="stylesheet" href="assets/stylesheets/commons/_slider.css" media="all">
 	<script src="assets/javascripts/commons/jquery.min.js"></script>
 	<script src="assets/javascripts/commons/jquery-ui.min.js"></script>
@@ -17,8 +17,8 @@
 <div class="header-bg">
 	<div class="wrap">
 		<div class="header">
-			<div class="logo">
-				<a href="index.html"><img src="assets/images/logo_company.png" alt=""></a>
+			<div class="header-logo">
+				<a href="index.html"><img src="assets/images/logo-convert.png" alt=""></a>
 			</div>
 			<div class="header__menu">
 				<!--start menu -->
@@ -57,7 +57,7 @@
 </div>
 <!-- end header page -->
 
-<!----start-images-slider---->
+<!-- start-images-slider -->
 		<div class="images-slider">
 			<!-- start slider -->
 		    <div id="fwslider">
@@ -70,7 +70,7 @@
 		            </div>
 		            <!-- /Duplicate to create more slides -->
 		            <div class="slide">
-		                <img src="assets/images/slider-bg.jpg" alt=""/>
+		                <img src="assets/images/slider-bg-next.jpg" alt=""/>
 		                
 		            </div>
 		            <!--/slide -->
@@ -81,32 +81,32 @@
 		    </div>
 		    <!--/slider -->
 		</div>
-<!--start main -->
+<!--start main page -->
 <div class="main-bg">
 <div class="wrap">
 	<div class="box-search">
 	<div class="box-search--full">
 		<div class="box-search__field">
 			<ul>
-				<li  class="box-search__key">
+				<li class="box-search__key--width">
 					<div class="book_date">
 						<form>
-							<input id="search__key" type="text" value="Key search">
+							<input id="search__key" type="text" placeholder="Internship Title, Keywords or Company">
 						</form>
 
 					</div>					
 				</li>
-				<li  class="box-search__key">
+				<li class="box-search__location--width">
 					<div class="book_date">
 						<form>
-							<input id="search__location" type="text" value="Location">
+							<input id="search__location" type="text" placeholder="Location">
 						</form>
 					</div>
 				</li>
-				<li class="span1_of_3">
-					<div class="date_btn">
+				<li class="box-search__btn--width">
+					<div class="btn__search">
 						<form>
-							<input type="submit" value="book now" />
+							<input class="icon__search" type="submit" value="Search" />
 						</form>
 					</div>
 				</li>
@@ -116,11 +116,13 @@
 		<div class="clear"></div>
 	</div>
 	</div>
+</div>
+<!-- end main page -->
 
 <!-- start footer page -->
 <div class="footer_bg">
-<div class="wrap">
-<div class="footer">
+	<div class="wrap">
+		<div class="footer">
 			<div class="copy">
 				<p class="link"><span>© All rights reserved | Template by&nbsp;<a href="http://w3layouts.com/"> W3Layouts</a></span></p>
 			</div>
@@ -133,17 +135,15 @@
 			</div>
 			<div class="soc_icons">
 				<ul>
-					<li><a class="icon1" href="#"></a></li>
-					<li><a class="icon2" href="#"></a></li>
-					<li><a class="icon3" href="#"></a></li>
-					<li><a class="icon4" href="#"></a></li>
-					<li><a class="icon5" href="#"></a></li>
+					<li><a class="icon-facebook" href="#"></a></li>
+					<li><a class="icon-twitter" href="#"></a></li>
+					<li><a class="icon-google" href="#"></a></li>
 					<div class="clear"></div>
 				</ul>	
 			</div>
 			<div class="clear"></div>
-</div>
-</div>
+		</div>
+	</div>
 </div>		
 </body>
 </html>
