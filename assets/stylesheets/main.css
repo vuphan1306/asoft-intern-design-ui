@@ -3,6 +3,13 @@
 @import "commons/_header.css";
 @import "commons/_top-nav.css";
 @import "commons/_box-search.css";
+@import "commons/_soc-icon.css";
+@import "styledevices/_desktop.css";
+@import "styledevices/_tablet.css";
+@import "styledevices/_phone.css";
+@import "commons/_footer.css";
+@import "commons/_footer-nav.css";
+
 /*Author: Vu Phan*/
 
 

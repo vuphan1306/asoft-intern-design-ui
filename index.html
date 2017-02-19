@@ -11,6 +11,25 @@
 	<script src="assets/javascripts/commons/jquery-ui.min.js"></script>
 	<script src="assets/javascripts/commons/css3-mediaqueries.js"></script>
 	<script src="assets/javascripts/commons/fwslider.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 </head>
 <body>
 <!-- start header -->
@@ -120,13 +139,13 @@
 <!-- end main page -->
 
 <!-- start footer page -->
-<div class="footer_bg">
+<!-- <div class="footer_bg"> -->
 	<div class="wrap">
 		<div class="footer">
 			<div class="copy">
-				<p class="link"><span>© All rights reserved | Template by&nbsp;<a href="http://w3layouts.com/"> W3Layouts</a></span></p>
+				<p class="link"><span>Copyright © 2017, Cloned from GlassDoor by Vu Phan.</span></p>
 			</div>
-			<div class="f_nav">
+			<div class="footer_nav">
 				<ul>
 					<li><a href="index.html">Internship</a></li>
 					<li><a href="companies.html">Companies</a></li>
@@ -139,11 +158,11 @@
 					<li><a class="icon-twitter" href="#"></a></li>
 					<li><a class="icon-google" href="#"></a></li>
 					<div class="clear"></div>
-				</ul>	
+				</ul>
 			</div>
 			<div class="clear"></div>
 		</div>
 	</div>
-</div>		
+<!-- </div>	 -->	
 </body>
 </html>

@@ -1,0 +1,27 @@
+/* start footer */
+.footer_bg {
+	background: #404040;
+}
+.footer{
+	padding: 4% 2% 2%;
+	background: #404040;
+}
+.copy{
+	float: left;
+	margin-top: 15px;
+}
+.copy p{
+	color: #9c9c9c;
+	font-size: 0.8725em;
+	line-height: 1.5em;
+}
+.copy p a{
+	color: #52ABDF;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.copy p a:hover{
+	color: #9c9c9c;
+}

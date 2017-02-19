@@ -61,7 +61,7 @@
 	background-color: #202227;
 }
 .clearfix a#pull:after {
-	background: url('../images/nav-icon.png')no-repeat;
+	background: url('../../images/nav-icon.png')no-repeat;
 	width: 30px;
 	content: "";
 	width: 30px;
