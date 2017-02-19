@@ -1,0 +1,54 @@
+/* start soc_icons */
+.soc_icons {
+	text-align: center;
+	/*display: inline-block;*/
+}
+.soc_icons h2{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #c0c0c0;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+.soc_icons ul li{
+	display:inline-block;
+	margin-left: 5px;
+}
+.soc_icons ul li:first-child{
+	margin-left: 0;
+}
+.soc_icons ul li a{
+	display: block;
+	background: url('../../images/soc_icons.png') no-repeat 0px 0px;
+	width: 46px;
+	height: 46px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.soc_icons ul li a.icon-facebook{
+	background-position:0px 0px;
+}
+.soc_icons ul li a.icon-twitter{
+	background-position:-55px 0px;
+}
+.soc_icons ul li a.icon-google{
+	background-position:-110px 0px;
+}
+/*.soc_icons ul li a.icon4{
+	background-position:-166px 0px;
+}
+.soc_icons ul li a.icon5{
+	background-position:-224px 0px;
+}*/
+.soc_icons ul li a:hover{
+	zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
+	-webkit-transition: opacity .15s ease-in-out;
+	-moz-transition: opacity .15s ease-in-out;
+	-ms-transition: opacity .15s ease-in-out;
+	-o-transition: opacity .15s ease-in-out;
+	transition: opacity .15s ease-in-out;
+}

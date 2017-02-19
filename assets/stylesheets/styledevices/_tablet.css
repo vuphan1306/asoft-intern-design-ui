@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1024px) {
+	.wrap {
+		width: 95%;
+	}
+	.menu li {
+		margin: 10px 8px;
+	}
+	.menu li a {
+		font-size: 0.8725em;
+	}
+	.reservation ul li.span1_of_3 {
+		width: 14.33333%;
+		margin-left: 15px;
+	}
+	.f_nav li a {
+		padding: 0 0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.wrap {
+		width: 95%;
+	}
+	.row .grid_3 {
+		float: right;
+		width: 38.333333% !important;
+	}
+	.header__menu {
+		display: none;
+	}
+	.header__menu-employer {
+		display: none;
+	}
+	.header__menu-user {
+		display: none;
+	}
+	.h_right {
+		width: 100%;
+		float: none;
+	}
+	.row {
+		width: 70% !important;
+	}
+	.top-nav {
+		display: block;
+		margin: 10px 0;
+		z-index: 999;
+		position: relative;
+	}
+	.nav a{
+		display: block;
+	}
+	.reservation ul li {
+		float: none;
+		display: inline-block;
+	}
+	.booking_room {
+		float: none;
+		width: 98%;
+	}
+	.reservation {
+		float: none;
+		width: 98%;
+	}
+	.b_room {
+		display: inline-block;
+	}
+	.grid1_of_3 h4 a {
+		font-size: 1.4em;
+	}
+	.copy {
+		float: none;
+		text-align:center;
+	}
+	.f_nav {
+		float: none;
+		text-align:center;
+		margin-top: 20px;
+	}
+	.soc_icons {
+		text-align: center;
+		margin: 20px 0;
+	}
+	.content {
+		float: none;
+		width: 100%;
+		margin-right: 0%;
+	}
+	.sidebar {
+		float: none;
+		width: 100%;
+		padding-left: 0%;
+		border-left: none;
+	}
+	.sidebar h4 {
+		margin: 4% 0 4%;
+	}
+	.sel_room {
+		float: none;
+		width: 100%;
+	}
+	.sel_room.left {
+		margin-left: 0%;
+	}
+	.service_list li {
+		width: 48.3333%;
+		margin-bottom:4%;
+	}
+	.service_list li:nth-child(3){
+		margin-left: 0;
+	}
+	.reservation h5 {
+		margin: 10px 0;
+	}
+}
