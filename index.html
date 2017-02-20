@@ -42,31 +42,56 @@
 			<div class="header__menu">
 				<!--start menu -->
 				<ul class="header-menu-ul">
-					<li class="active"><a href="index.html"><span>Internship</span></a></li>
+					<li class="active"><a href="index.html"><span>Internships</span></a></li>
 					<li><a href="rooms.html"><span>Companies</span></a></li>
-					<li><a href="reservation.html"><span>Interview</span></a></li>
+					<li><a href="reservation.html"><span>Interviews</span></a></li>
 					<div class="clear"></div>
 				</ul>
 			</div>
 			<div class="header__menu-employer">
-				<span class="header__item--margin-right">Employers</span>
+				<span class="header__item--margin-right">For Employers</span>
 				<span class="header__divider">|</span>
-				<span class="header__item--margin-left">Free Internship Postings</span>
+				<span class="header__item--margin-left">Post a Internship</span>
 			</div>
 			<div class="header__menu-user">
-				<span class="signin acctMenu">
+				<span class="signin acctMenu" onclick="document.getElementById('btn-signin__toggle').style.display='block'" style="width:auto;">
 					Sign In
 				</span>
+
+				<!-- div toggle while click sign in button -->
+				<div id="btn-signin__toggle" class="modal">
+				  <form class="modal-content animate" action="/action_page.php">
+				    <div class="imgcontainer">
+				      <span onclick="document.getElementById('btn-signin__toggle').style.display='none'" class="close" title="Close Modal">&times;</span>
+				      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+				    </div>
+
+				    <div class="container">
+				      <label><b>Username</b></label>
+				      <input type="text" placeholder="Enter Username" name="uname" required>
+
+				      <label><b>Password</b></label>
+				      <input type="password" placeholder="Enter Password" name="psw" required>
+				        
+				      <button type="submit">Login</button>
+				      <input type="checkbox" checked="checked"> Remember me
+				    </div>
+
+				    <div class="container" style="background-color:#f1f1f1">
+				      <button type="button" onclick="document.getElementById('btn-signin__toggle').style.display='none'" class="cancelbtn">Cancel</button>
+				      <span class="psw">Forgot <a href="#">password?</a></span>
+				    </div>
+				  </form>
+				</div>
 			</div>
 			<div class="clear"></div>
 			<div class="top-nav">
 				<nav class="clearfix">
 					<ul>
-					<li class="active"><a href="index.html">hotel</a></li> 
-					<li><a href="rooms.html">rooms & suits</a></li> 
-					<li><a href="reservation.html">reservation</a></li> 
-					<li><a href="activities.html">activities</a></li> 
-					<li><a href="contact.html">contact</a></li>
+					<li class="active"><a href="index.html">Internships</a></li> 
+					<li><a href="companies.html">Companies</a></li> 
+					<li><a href="interview.html">Interviews</a></li> 
+					<li><a href="activities.html">Post a Internship</a></li> 
 					</ul>
 					<a href="#" id="pull">Menu</a>
 				</nav>
@@ -102,44 +127,88 @@
 		</div>
 <!--start main page -->
 <div class="main-bg">
-<div class="wrap">
-	<div class="box-search">
-	<div class="box-search--full">
-		<div class="box-search__field">
-			<ul>
-				<li class="box-search__key--width">
-					<div class="book_date">
-						<form>
-							<input id="search__key" type="text" placeholder="Internship Title, Keywords or Company">
-						</form>
-
-					</div>					
-				</li>
-				<li class="box-search__location--width">
-					<div class="book_date">
-						<form>
-							<input id="search__location" type="text" placeholder="Location">
-						</form>
-					</div>
-				</li>
-				<li class="box-search__btn--width">
-					<div class="btn__search">
-						<form>
-							<input class="icon__search" type="submit" value="Search" />
-						</form>
-					</div>
-				</li>
+	<div class="wrap">
+		<div class="box-search">
+			<div class="box-search--full">
+				<div class="box-search__field">
+					<ul>
+						<li class="box-search__key--width">
+							<div class="book_date">
+								<form>
+									<input id="search__key" type="text" placeholder="Internship Title, Keywords or Company">
+								</form>
+							</div>					
+						</li>
+						<li class="box-search__location--width">
+							<div class="book_date">
+								<form>
+									<input id="search__location" type="text" placeholder="Location">
+								</form>
+							</div>
+						</li>
+						<li class="box-search__btn--width">
+							<div class="btn__search">
+								<form>
+									<input class="icon__search" type="submit" value="Search" />
+								</form>
+							</div>
+						</li>
+						<div class="clear"></div>
+					</ul>
+				</div>
 				<div class="clear"></div>
-			</ul>
+			</div>
 		</div>
 		<div class="clear"></div>
-	</div>
+		<div class="content-page">
+			<article class="main-col">
+				<section class="section">
+					<h2>Sign up today for Glassdoor. It's free and anonymous.</h2>
+					<div class="sign-up__form">
+						<div class="cell-body">
+							<h2>Find a internship you love. Search millions of internships.</h2>
+							<h2>Get an inside look with employee reviews</h2>
+							<h2>Know Your Worth! Get your salary estimate.</h2>
+							<!-- <a class="btn-search" href="/Job/jobs.htm?location-redirect=true">
+								<span>Search Internships</span>
+							</a> -->
+						</div>
+						<div class="sign-up__content">
+							<div class="sign-up__social">
+								<a class="btn btn-block btn-social btn-facebook btn-social__signin">
+							    <span class="fa fa-facebook"></span> Sign in with Facebook
+							  </a>
+								</a>
+								<a class="btn btn-block btn-social btn-google btn-social__signin">
+							    <span class="fa fa-google"></span> Sign in with Google
+							  </a>
+							</div>
+
+							<hr class="hr--or"/>
+							
+							<div class="sign-up__form--submit">
+								<form method="post" action="index.html">
+					    	<div>
+						    	<span><label><b>Create Account with Email</b></label></span>
+						    	<br />
+						    	<span><input name="email" type="text" class="textbox" placeholder="your.name@asnet.com"></span>
+						    </div>
+						   <div>
+						   		<span><input type="submit" value="Create Your Account"></span>
+						  </div>
+					    </form>
+							</div>
+						</div>
+					</div>
+				</section>
+			</article>
+		</div>
 	</div>
 </div>
 <!-- end main page -->
 
 <!-- start footer page -->
-<!-- <div class="footer_bg"> -->
+<div class="footer_bg">
 	<div class="wrap">
 		<div class="footer">
 			<div class="copy">
@@ -163,6 +232,19 @@
 			<div class="clear"></div>
 		</div>
 	</div>
-<!-- </div>	 -->	
+</div>
+<!-- script login form toggle -->
+<script>
+// Get the modal
+var modal = document.getElementById('btn-signin__toggle');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
 </body>
 </html>

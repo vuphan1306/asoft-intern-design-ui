@@ -3,12 +3,16 @@
 @import "commons/_header.css";
 @import "commons/_top-nav.css";
 @import "commons/_box-search.css";
+@import "commons/_content-page.css";
 @import "commons/_soc-icon.css";
+@import "commons/_signin-toggle.css";
 @import "styledevices/_desktop.css";
 @import "styledevices/_tablet.css";
 @import "styledevices/_phone.css";
 @import "commons/_footer.css";
 @import "commons/_footer-nav.css";
+@import "ext/bootstrap/css/bootstrap-social.css";
+@import "ext/font-awesome/css/font-awesome.css";
 
 /*Author: Vu Phan*/
 
