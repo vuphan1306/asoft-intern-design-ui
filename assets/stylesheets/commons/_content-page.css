@@ -1,0 +1,140 @@
+/* start content page */
+
+.content-page {
+	display: inline-block;
+	width: 100%;
+	margin: 20px 0;
+}
+
+.content-page h2 {
+	padding-right: 30px;
+	font-size: 20px;
+	line-height: 2.4em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.sign-up__form {
+	display: block;
+	/*margin: 8% 0;*/
+	width: 80%;
+}
+
+.cell-body {
+	float: left;
+	margin-right: 0px;
+	width: 50%;
+	padding: 0 25px;
+}
+
+.cell-body h2 {
+	padding-right: 30px;
+	font-size: 20px;
+	line-height: 2.4em;
+	text-align: left;
+}
+
+.cell-body p {
+  margin-top: 30px;
+  width: calc(83.33333333% + 25px);
+}
+
+.sign-up__content {
+	width: 45%;
+	float: right;
+	text-align: center;
+}
+
+.btn-social__signin {
+	text-transform: capitalize;
+	width: 100% !important;
+	background: #32A2E3;
+	font-family: 'Open Sans', sans-serif;
+	padding: 8px;
+	margin: 0 20px;
+	border: none;
+	font-size: 16px;
+	line-height: 26px;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	outline: none;
+	cursor: pointer;
+}
+
+hr.hr--or {
+	border-top: 1px solid #8c8b8b;
+	text-align: center;
+	height: 1px;
+	margin: 20px 20px;
+}
+hr.hr--or:after {
+	content: 'or';
+	display: inline-block;
+	position: relative;
+	top: -10px;
+	padding: 0 5px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+
+.sign-up__form--submit {
+	position:relative;
+	padding-bottom:30px;
+	text-align: left;
+	margin: 0 20px;
+}
+.sign-up__form--submit div{
+	padding:5px 0;
+}
+.sign-up__form--submit span{
+	display: initial;
+	color: #252525;
+	text-shadow: 0 1px 0 #ffffff;
+	line-height: 1.4em;
+	font-size: 0.7825em;
+}
+.sign-up__form--submit input[type="text"],.sign-up__form--submit textarea {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 5px;
+	padding: 10px;
+	display: block;
+	width: 98% !important;
+	background: rgba(255, 255, 255, 1);
+	outline: none;
+	color: #555555;
+	font-size: 1em;
+	border: 1px solid rgb(224, 224, 224);
+	-webkit-appearance: none;
+}
+.sign-up__form--submit textarea {
+	resize: none;
+	height: 120px;		
+}
+
+.sign-up__form--submit input[type="submit"] {
+	margin-top: 10px;
+	display: inline-block;
+/*	text-transform: uppercase;*/
+	background: #32A2E3;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	padding: 15px;
+	border: none;
+	font-size: 1em;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	outline: none;
+	cursor: pointer;
+	float: right;
+	width: 25% !important;
+	-webkit-appearance: none;
+}
+
+.sign-up__form--submit input[type="submit"]:hover{
+	background: #228AC6;
+}
