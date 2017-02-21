@@ -14,10 +14,14 @@
 	margin-bottom: 20px;
 }
 
-.sign-up__form {
-	display: block;
+.content__rows {
+	display: inline-block;
 	/*margin: 8% 0;*/
-	width: 80%;
+	width: 100%;
+}
+
+.section {
+	margin: 15px auto;
 }
 
 .cell-body {
@@ -44,6 +48,13 @@
 	float: right;
 	text-align: center;
 }
+
+
+.content--center {
+	margin: 0 auto;
+	float: none;
+}
+
 
 .btn-social__signin {
 	text-transform: capitalize;
@@ -137,4 +148,39 @@ hr.hr--or:after {
 
 .sign-up__form--submit input[type="submit"]:hover{
 	background: #228AC6;
+}
+
+.text__description--right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content__left--width {
+	width: 20%;
+}
+
+.content__right--width {
+	width: 20%;
+}
+
+.companies__images--center img {
+	width: 80px;
+	height: 80px;
+}
+
+.text__description--right p span {
+	color: #847e7e;
+	text-align: right;
+}
+
+.text__description--right a span {
+	color: rgba(124,178,40,0.9);
+	text-align: right;
+	line-height: 1.6em;
+	font-size: 20px;
+}
+
+.text__description--right a:hover span {
+		text-decoration: underline;
+		color: rgba(110,150,35,0.9);
 }
