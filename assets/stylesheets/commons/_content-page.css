@@ -22,6 +22,7 @@
 
 .section {
 	margin: 15px auto;
+	text-align: center;
 }
 
 .cell-body {
@@ -51,8 +52,9 @@
 
 
 .content--center {
-	margin: 0 auto;
+	margin: 5px auto;
 	float: none;
+	display: inline-block;
 }
 
 
@@ -160,7 +162,7 @@ hr.hr--or:after {
 }
 
 .content__right--width {
-	width: 20%;
+	width: 30%;
 }
 
 .companies__images--center img {
@@ -181,6 +183,7 @@ hr.hr--or:after {
 }
 
 .text__description--right a:hover span {
-		text-decoration: underline;
-		color: rgba(110,150,35,0.9);
+	text-decoration: underline;
+	color: rgba(110,150,35,0.9);
 }
+

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Home page</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" type="image/vnd.microsoft.icon">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css" media="all">
@@ -49,10 +50,30 @@
 				</ul>
 			</div>
 			<div class="header__menu-employer">
-				<span class="header__item--margin-right">For Employers</span>
+
+				<ul class="header-menu-ul">
+					<li class="header__item--margin-right"><a href="#"><span>For Employers</span></a></li>
+					<li><a href="#"><span class="header__divider">|</span></a></li>
+					<li><a href="#"><span class="header__item--margin-left">Post a Internship</span></a></li>
+					<div class="clear"></div>
+					<div class="dropdown-content">
+					    <a href="#">Link 1</a>
+					    <a href="#">Link 2</a>
+					    <a href="#">Link 3</a>
+					</div>
+				</ul>
+
+
+				<!-- <span class="header__item--margin-right">For Employers</span>
+				<div class="dropdown-content">
+				    <a href="#">Link 1</a>
+				    <a href="#">Link 2</a>
+				    <a href="#">Link 3</a>
+				</div>
 				<span class="header__divider">|</span>
-				<span class="header__item--margin-left">Post a Internship</span>
+				<span class="header__item--margin-left">Post a Internship</span> -->
 			</div>
+
 			<div class="header__menu-user">
 				<span class="signin acctMenu" onclick="document.getElementById('btn-signin__toggle').style.display='block'" style="width:auto;">
 					Sign In
