@@ -86,7 +86,7 @@ body{
 	padding-bottom: 3px;
 	border-bottom: 2px solid white;
 }
-.header-menu-ul li a:hover{
+.header-menu-ul li a:hover {
 	background-color: rgba(110,150,35,0.9);
 }
 .header__menu-employer {
@@ -102,6 +102,7 @@ body{
 
 .header__menu-employer > span {
 	padding: 0;
+	
 	display: inline-block;
 
 }
@@ -116,7 +117,7 @@ body{
 
 .header__menu-employer .header__divider {
 	color: #ccc;
-  font-weight: lighter;
+	font-weight: lighter;
 }
 
 .header__menu-user {

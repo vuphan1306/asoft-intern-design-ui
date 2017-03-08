@@ -17,6 +17,9 @@
 	.menu li {
 		margin: 6px 16px;
 	}
+	.box-search {
+		width: 95%;
+	}
 }
 @media only screen and (max-width: 1280px) {
 	.wrap{
